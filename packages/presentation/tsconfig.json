@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": "dist-types",
+    "types": [
+      "react",
+      "react-dom"
+    ],
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src",
+    "tests"
+  ]
+}

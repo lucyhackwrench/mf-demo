@@ -1,0 +1,14 @@
+{
+  "name": "@demo/presentation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "rspack serve --mode development",
+    "build": "rspack build --mode production",
+    "smoke": "node ./tests/smoke.mjs http://localhost:5004/ ../../research/artifacts/presentation-smoke.json ../../research/artifacts/presentation-smoke.png"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

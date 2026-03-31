@@ -1,0 +1,1 @@
+export { ThemedCounter } from './ThemedCounter';
